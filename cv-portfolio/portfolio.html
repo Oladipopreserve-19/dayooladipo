@@ -227,6 +227,82 @@
         background: none !important;
         padding: 0 !important;
       }
+	  
+ .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.box-container .box {
+    height: 50px;
+    width: 50px;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.box-container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+ .box-container .box:hover img {
+    transform: scale(1.2);
+}
+
+
+ .box-container {
+    display: flex !important;
+	flex-direction: row;
+    flex-wrap: wrap !important;
+    gap: 1.5rem !important;
+}
+
+ .box-container .box {
+    flex: 1 1 30rem !important;
+	
+    text-align: center !important;
+    padding: 2rem !important;
+    background: #fff !important;
+    border-radius: .5rem !important;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1) !important;
+}
+
+ .box-container .box:hover {
+    background: #111 !important;
+}
+
+ .box-container .box i {
+    height: 20px !important;
+    width: 20px !important;
+    line-height: 6rem !important;
+    font-size: 2.5rem !important;
+    color: #fff !important;
+    background: var(--main-color) !important;
+    border-radius: 50% !important;
+}
+
+ .box-container .box h3 {
+    color: #444 !important;
+    font-size: 20px !important;
+    padding-top: 1rem !important;
+}
+
+ .box-container .box:hover h3 {
+    color: white !important;
+	font-size: 25px !important;
+}
+
+ .box-container .box p {
+    color: #666 !important;
+    font-size: 10px !important;
+    padding-top: .5rem !important;
+}
     </style>
     <link
       rel="stylesheet"
@@ -789,119 +865,59 @@
                         data-id="34fdd78"
                         data-element_type="widget"
                         data-widget_type="divider.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div class="elementor-divider">
-                            <span class="elementor-divider-separator"> </span>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-3745111 elementor-widget elementor-widget-text-editor"
-                        data-id="3745111"
-                        data-element_type="widget"
-                        data-widget_type="text-editor.default"
-                      >
-                        <div class="elementor-widget-container">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Ut enim
-                        </div>
-                      </div>
-                      <div
-                        class="elementor-element elementor-element-3435886 elementor-widget elementor-widget-image-carousel"
-                        data-id="3435886"
-                        data-element_type="widget"
-                        data-settings='{"slides_to_show":"3","slides_to_scroll":"1","navigation":"none","pause_on_hover":"no","pause_on_interaction":"no","autoplay_speed":"3500","image_spacing_custom":{"unit":"px","size":"40","sizes":[]},"slides_to_show_tablet":"1","autoplay":"yes","infinite":"yes","speed":500}'
-                        data-widget_type="image-carousel.default"
-                      >
-                        <div class="elementor-widget-container">
-                          <div
-                            class="elementor-image-carousel-wrapper swiper-container"
-                            dir="ltr"
-                          >
-                            <div
-                              class="elementor-image-carousel swiper-wrapper"
-                            >
-                              <div class="swiper-slide">
-                                <figure class="swiper-slide-inner">
-                                  <img
-                                    class="swiper-slide-image"
-                                    src="../cv-portfolio/wp-content/uploads/sites/129/2020/11/work_1.jpg"
-                                    alt="work_1"
-                                  />
-                                </figure>
-                              </div>
-                              <div class="swiper-slide">
-                                <figure class="swiper-slide-inner">
-                                  <img
-                                    class="swiper-slide-image"
-                                    src="../cv-portfolio/wp-content/uploads/sites/129/2020/11/work_2.jpg"
-                                    alt="work_2"
-                                  />
-                                </figure>
-                              </div>
-                              <div class="swiper-slide">
-                                <figure class="swiper-slide-inner">
-                                  <img
-                                    class="swiper-slide-image"
-                                    src="../cv-portfolio/wp-content/uploads/sites/129/2020/11/work_3.jpg"
-                                    alt="work_3"
-                                  />
-                                </figure>
-                              </div>
-                              <div class="swiper-slide">
-                                <figure class="swiper-slide-inner">
-                                  <img
-                                    class="swiper-slide-image"
-                                    src="../cv-portfolio/wp-content/uploads/sites/129/2020/11/work_4.jpg"
-                                    alt="work_4"
-                                  />
-                                </figure>
-                              </div>
-                              <div class="swiper-slide">
-                                <figure class="swiper-slide-inner">
-                                  <img
-                                    class="swiper-slide-image"
-                                    src="../cv-portfolio/wp-content/uploads/sites/129/2020/11/work_5.jpg"
-                                    alt="work_5"
-                                  />
-                                </figure>
-                              </div>
-                              <div class="swiper-slide">
-                                <figure class="swiper-slide-inner">
-                                  <img
-                                    class="swiper-slide-image"
-                                    src="../cv-portfolio/wp-content/uploads/sites/129/2020/11/work_6.jpg"
-                                    alt="work_6"
-                                  />
-                                </figure>
-                              </div>
-                              <div class="swiper-slide">
-                                <figure class="swiper-slide-inner">
-                                  <img
-                                    class="swiper-slide-image"
-                                    src="../cv-portfolio/wp-content/uploads/sites/129/2020/11/work_7.jpg"
-                                    alt="work_7"
-                                  />
-                                </figure>
-                              </div>
-                              <div class="swiper-slide">
-                                <figure class="swiper-slide-inner">
-                                  <img
-                                    class="swiper-slide-image"
-                                    src="../cv-portfolio/wp-content/uploads/sites/129/2020/11/work_8.jpg"
-                                    alt="work_8"
-                                  />
-                                </figure>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                      > <div class="box-container">
+						<div class="box">
+							<i class='fas fa-medal' style='font-size:48px;' class="gold"></i>
+							<h3>2020</h3>
+							<p>Distinguished Student Award, IAS-HIT-Winter2020</p>
+						</div>
+						<div class="box">
+							<i class='fas fa-medal' style='font-size:48px;' class="gold"></i>
+							<h3>2020</h3>
+							<p>Best Presentation, IAS-HIT-Winter2020</p>
+						</div>
+			
+						<div class="box">
+							<i class='fas fa-medal' style='font-size:48px;' class="gold"></i>
+							<h3>2020</h3>
+							<p>International Arctic Winter School Scholarship, IAS-HIT-Winter2020</p>
+						</div>
+						<div class="box">
+							<i class='fas fa-medal' style='font-size:48px;' class="gold"></i>
+							<h3>2019</h3>
+							<p>Tsinghua University International Summer Scholarship</p>
+						</div>
+			
+						<div class="box">
+							<i class='fas fa-medal' style='font-size:48px;' class="gold"></i>
+							<h3>2019</h3>
+							<p>Cornell Climate Fellowship (Fall 2019 Cohort), Civic Ecology Lab, Cornell University</p>
+						</div>
+			
+						<div class="box">
+							<i class='fas fa-medal' style='font-size:48px;' class="gold"></i>
+							<h3>2018</h3>
+							<p>Turkiye Buslari Fellowship</p>
+						</div>
+			
+						<div class="box">
+							<i class='fas fa-medal' style='font-size:48px;' class="gold"></i>
+							<h3>2018</h3>
+							<p>Belt and Road Master Fellowship at the Chinese Academy of Sciences</p>
+						</div>
+						<div class="box">
+							<span><i class='fas fa-medal' style='font-size:48px;' class="gold"></i></span>
+							<h3>2016</h3>
+							<p>First Place, Faculty of Physical Science Quiz Competition</p>
+						</div>
+			
+			
+			
+			
+			
+			
+					</div>
+			
               </section>
             </div>
           </div>
